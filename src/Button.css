@@ -1,0 +1,104 @@
+button,
+a.btn,
+input[type="file"].btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: black;
+    background-color: #f93;
+    font-family: "Roboto";
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    margin: 2px;
+    text-decoration: none;
+}
+
+button:hover,
+a.btn:hover,
+input[type="file"].btn:hover {
+    background-color: #f60;
+}
+
+.btn-ctrl {
+    font-size: 120%;
+    padding: 0px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.btn-default, .btn-info {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #39f;
+}
+
+.btn-default:hover, .btn-info:hover {
+    background-color: transparent;
+    color: #039;
+}
+
+.btn-default:active, .btn-info:active {
+    color: #006;
+}
+
+.btn-active {
+    background-color: #f60;
+    box-shadow: 0 0 0 2px #f93;
+}
+
+.btn-cancel {
+    background-color: #69c;
+}
+
+.btn-cancel:hover {
+    background-color: #47c;
+}
+
+.btn-danger {
+    background-color: #f44;
+}
+
+.btn-danger:hover {
+    background-color: #f00;
+}
+
+.btn-warning {
+    background-color: #f84;
+}
+
+.btn-warning:hover {
+    background-color: #f60;
+}
+
+.btn-accept,
+a.btn-accept {
+    background-color: #3ca;
+}
+
+.btn-accept:hover,
+a.btn-accept:hover {
+    background-color: #0a9;
+}
+
+.btn-delete {
+    background-color: transparent;
+    color: #f66;
+}
+
+.btn-delete:hover {
+    background-color: transparent;
+    color: #f00;
+}
+
+button:disabled,
+a.btn:disabled,
+.btn-accept:hover:disabled,
+.btn-delete:hover:disabled,
+input[type="file"].disabled {
+    background-color: #666;
+    color: #aaa;
+    cursor: not-allowed;
+}
